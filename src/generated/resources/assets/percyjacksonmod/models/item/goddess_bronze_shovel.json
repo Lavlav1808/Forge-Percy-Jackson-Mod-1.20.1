@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "percyjacksonmod:item/goddess_bronze_shovel"
+  }
+}

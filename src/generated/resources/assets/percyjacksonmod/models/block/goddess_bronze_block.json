@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "percyjacksonmod:block/goddess_bronze_block"
+  }
+}

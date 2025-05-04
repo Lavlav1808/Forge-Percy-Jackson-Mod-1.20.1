@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "percyjacksonmod:block/deepslate_goddess_bronze_ore"
+  }
+}

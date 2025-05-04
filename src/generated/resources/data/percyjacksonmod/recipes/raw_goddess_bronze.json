@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "percyjacksonmod:raw_goddess_bronze_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "percyjacksonmod:raw_goddess_bronze"
+  }
+}

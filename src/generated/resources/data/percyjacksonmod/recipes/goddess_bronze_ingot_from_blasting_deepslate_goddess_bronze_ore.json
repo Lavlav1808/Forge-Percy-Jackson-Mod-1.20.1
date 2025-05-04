@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "goddess_bronze",
+  "ingredient": {
+    "item": "percyjacksonmod:deepslate_goddess_bronze_ore"
+  },
+  "result": "percyjacksonmod:goddess_bronze_ingot"
+}

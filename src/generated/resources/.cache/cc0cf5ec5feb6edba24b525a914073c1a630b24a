@@ -1,0 +1,4 @@
+// 1.20.1	2025-04-17T18:03:09.0486877	Tags for minecraft:block mod id percyjacksonmod
+d20a06bc140255b4515f24977b5e19c5d02bea50 data/minecraft/tags/blocks/mineable/pickaxe.json
+d20a06bc140255b4515f24977b5e19c5d02bea50 data/minecraft/tags/blocks/needs_diamond_tool.json
+26d89c4e3cfa827f5d2a7ef1ef43ec4c8c63cd6e data/percyjacksonmod/tags/blocks/needs_goddess_bronze_tool.json

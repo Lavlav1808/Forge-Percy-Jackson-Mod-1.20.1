@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "percyjacksonmod:goddess_bronze_ingot"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GGG",
+    "GGG"
+  ],
+  "result": {
+    "item": "percyjacksonmod:goddess_bronze_block"
+  },
+  "show_notification": true
+}

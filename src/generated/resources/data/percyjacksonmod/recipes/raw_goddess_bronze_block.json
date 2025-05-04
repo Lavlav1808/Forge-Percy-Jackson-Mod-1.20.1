@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "percyjacksonmod:raw_goddess_bronze"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "item": "percyjacksonmod:raw_goddess_bronze_block"
+  },
+  "show_notification": true
+}

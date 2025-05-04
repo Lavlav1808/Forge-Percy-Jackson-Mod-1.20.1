@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "percyjacksonmod:item/raw_goddess_bronze"
+  }
+}
