@@ -3,6 +3,8 @@ package net.lavlav.percyjacksonmod.datagen;
 import net.lavlav.percyjacksonmod.PercyJacksonMod;
 import net.lavlav.percyjacksonmod.item.ModItems;
 import net.lavlav.percyjacksonmod.loot.AddItemModifier;
+import net.lavlav.percyjacksonmod.loot.AddSusGravelItemModifier;
+import net.lavlav.percyjacksonmod.loot.AddSusSandItemModifier;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
@@ -35,6 +37,46 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("olympian_upgrade_from_mineshaft", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/abandoned_mineshaft")).build(),
                 LootItemRandomChanceCondition.randomChance(0.10F).build()
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_sand", new AddSusSandItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_sand", new AddSusSandItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_well")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_sand", new AddSusSandItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/ocean_ruin_cold")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_sand", new AddSusSandItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/ocean_ruin_warm")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_sand", new AddSusSandItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/trail_ruins_rare")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_gravel", new AddSusGravelItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_gravel", new AddSusGravelItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_well")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_gravel", new AddSusGravelItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/ocean_ruin_cold")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_gravel", new AddSusGravelItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/ocean_ruin_warm")).build(),
+        }, ModItems.OLYMPIAN_UPGRADE.get()));
+
+        add("olympian_upgrade_from_sus_gravel", new AddSusGravelItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/trail_ruins_rare")).build(),
         }, ModItems.OLYMPIAN_UPGRADE.get()));
     }
 }

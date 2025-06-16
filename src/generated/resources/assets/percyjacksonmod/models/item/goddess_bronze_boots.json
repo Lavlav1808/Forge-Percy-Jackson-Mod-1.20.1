@@ -2,51 +2,9 @@
   "parent": "minecraft:item/generated",
   "overrides": [
     {
-      "model": "percyjacksonmod:item/goddess_bronze_boots_diamond_trim",
-      "predicate": {
-        "minecraft:trim_type": 0.8
-      }
-    },
-    {
-      "model": "percyjacksonmod:item/goddess_bronze_boots_redstone_trim",
-      "predicate": {
-        "minecraft:trim_type": 0.4
-      }
-    },
-    {
-      "model": "percyjacksonmod:item/goddess_bronze_boots_quartz_trim",
-      "predicate": {
-        "minecraft:trim_type": 0.1
-      }
-    },
-    {
-      "model": "percyjacksonmod:item/goddess_bronze_boots_netherite_trim",
-      "predicate": {
-        "minecraft:trim_type": 0.3
-      }
-    },
-    {
       "model": "percyjacksonmod:item/goddess_bronze_boots_gold_trim",
       "predicate": {
         "minecraft:trim_type": 0.6
-      }
-    },
-    {
-      "model": "percyjacksonmod:item/goddess_bronze_boots_amethyst_trim",
-      "predicate": {
-        "minecraft:trim_type": 1.0
-      }
-    },
-    {
-      "model": "percyjacksonmod:item/goddess_bronze_boots_copper_trim",
-      "predicate": {
-        "minecraft:trim_type": 0.5
-      }
-    },
-    {
-      "model": "percyjacksonmod:item/goddess_bronze_boots_lapis_trim",
-      "predicate": {
-        "minecraft:trim_type": 0.9
       }
     },
     {
@@ -56,9 +14,51 @@
       }
     },
     {
+      "model": "percyjacksonmod:item/goddess_bronze_boots_netherite_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.3
+      }
+    },
+    {
       "model": "percyjacksonmod:item/goddess_bronze_boots_emerald_trim",
       "predicate": {
         "minecraft:trim_type": 0.7
+      }
+    },
+    {
+      "model": "percyjacksonmod:item/goddess_bronze_boots_amethyst_trim",
+      "predicate": {
+        "minecraft:trim_type": 1.0
+      }
+    },
+    {
+      "model": "percyjacksonmod:item/goddess_bronze_boots_redstone_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.4
+      }
+    },
+    {
+      "model": "percyjacksonmod:item/goddess_bronze_boots_copper_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.5
+      }
+    },
+    {
+      "model": "percyjacksonmod:item/goddess_bronze_boots_diamond_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.8
+      }
+    },
+    {
+      "model": "percyjacksonmod:item/goddess_bronze_boots_quartz_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.1
+      }
+    },
+    {
+      "model": "percyjacksonmod:item/goddess_bronze_boots_lapis_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.9
       }
     }
   ],

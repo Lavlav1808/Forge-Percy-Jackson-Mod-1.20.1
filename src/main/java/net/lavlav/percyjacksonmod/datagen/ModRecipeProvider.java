@@ -35,17 +35,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.GODDESS_BRONZE_INGOT.get()), has(ModItems.GODDESS_BRONZE_INGOT.get()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GODDESS_BRONZE_INGOT.get(), 9)
-                .requires(ModBlocks.GODDESS_BRONZE_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.GODDESS_BRONZE_BLOCK.get()), has(ModBlocks.GODDESS_BRONZE_BLOCK.get()))
-                .save(pWriter);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAW_GODDESS_BRONZE_BLOCK.get())
                 .pattern("RRR")
                 .pattern("RRR")
                 .pattern("RRR")
                 .define('R', ModItems.RAW_GODDESS_BRONZE.get())
-                .unlockedBy(getHasName(ModItems.RAW_GODDESS_BRONZE.get()), has(ModItems.RAW_GODDESS_BRONZE.get()))
+                .unlockedBy(getHasName(ModItems.GODDESS_BRONZE_INGOT.get()), has(ModItems.RAW_GODDESS_BRONZE.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GODDESS_BRONZE_INGOT.get(), 9)
+                .requires(ModBlocks.GODDESS_BRONZE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.GODDESS_BRONZE_BLOCK.get()), has(ModBlocks.GODDESS_BRONZE_BLOCK.get()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_GODDESS_BRONZE.get(), 9)

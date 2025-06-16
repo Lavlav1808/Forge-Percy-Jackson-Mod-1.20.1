@@ -28,6 +28,14 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
             ));
 
+    public static final RegistryObject<Block> RAW_GODDESS_BRONZE_BLOCK = registerBlock("raw_goddess_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(6.8F, 7.8F)
+                    .sound(SoundType.COPPER)
+                    .mapColor(MapColor.RAW_IRON)
+                    .requiresCorrectToolForDrops()
+            ));
+
     public static final RegistryObject<Block> GODDESS_BRONZE_ORE = registerBlock("goddess_bronze_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of()
                     .strength(4.8F, 4.8F)
@@ -42,9 +50,6 @@ public class ModBlocks {
                     .mapColor(MapColor.DEEPSLATE)
                     .requiresCorrectToolForDrops()
             ));
-
-    public static final RegistryObject<Block> RAW_GODDESS_BRONZE_BLOCK = registerBlock("raw_goddess_bronze_block",
-            () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.GODDESS_BRONZE_BLOCK.get())));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -1,6 +1,11 @@
 {
   "entries": [
-    "percyjacksonmod:olimpian_upgrade_from_jungle_temple"
+    "percyjacksonmod:olympian_upgrade_from_shipwreck",
+    "percyjacksonmod:olympian_upgrade_from_jungle_temple",
+    "percyjacksonmod:olympian_upgrade_from_desert_pyramid",
+    "percyjacksonmod:olympian_upgrade_from_mineshaft",
+    "percyjacksonmod:olympian_upgrade_from_sus_sand",
+    "percyjacksonmod:olympian_upgrade_from_sus_gravel"
   ],
   "replace": false
 }
